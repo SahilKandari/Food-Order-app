@@ -1,0 +1,25 @@
+.cart-section {
+  color: black;
+  width: 100%;
+  padding: 0 0 0 1.5rem;
+}
+.cart-section ul {
+  overflow-y: auto;
+  max-height: 20rem;
+}
+.modal_total {
+  font-size: 22px;
+}
+
+.cart_button {
+  justify-content: end;
+  padding: 0;
+}
+
+#button_modal_1 {
+  background-color: white;
+  color: #f55f5c;
+}
+#button_modal_1:hover {
+  color: black;
+}

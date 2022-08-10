@@ -1,0 +1,8 @@
+.card {
+  font-family: "Parisienne", cursive;
+  border: 2px solid black;
+  color: white;
+  border-radius: 13px;
+  box-shadow: 20px 20px 10px rgb(73, 73, 73);
+  
+}

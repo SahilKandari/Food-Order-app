@@ -1,0 +1,14 @@
+.meals-item{
+    line-height: 12px;
+    overflow: hidden;
+}
+.meals-item h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.meals-item p{
+    color: #BB110E;
+}
+.meals-item b{
+    color: rgb(169, 77, 255);
+}

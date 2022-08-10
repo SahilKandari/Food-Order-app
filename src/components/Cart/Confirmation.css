@@ -1,0 +1,17 @@
+.confirmation_button{
+    display: flex;
+    justify-content: space-between;
+
+}
+.confirmation_buttonIndividual{
+    width: max-content;
+    height: max-content;
+margin-left: 20px;
+
+}
+.form-control_invalid:disabled{
+    background-color: grey;
+}
+.form-control_invalid{
+    background-color: #f55f5c;
+}

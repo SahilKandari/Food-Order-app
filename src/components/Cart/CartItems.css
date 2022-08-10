@@ -1,0 +1,28 @@
+.modal_list :first-child {
+  font-size: 20px;
+  color: rgb(87, 87, 87);
+}
+.modal_list :nth-child(2) {
+  color: #f55f5c;
+}
+.cart_spans :first-child {
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 6px;
+  color: #f55f5c;
+}
+.cart_spans :nth-child(2) {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(87, 87, 87);
+}
+.cart_itemsButton {
+  font-size: 10px;
+  border-radius: 10px;
+  width: 20%;
+
+  margin-right: 2rem;
+}
+.cartItems_list{
+  border-bottom: 2px solid #f55f5c;
+}
