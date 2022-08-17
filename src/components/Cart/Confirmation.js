@@ -63,31 +63,32 @@ const Confirmation = (props) => {
       number: numberValueEntered,
     });
   };
-
-  let inputNameClassName;
+const formControl = "form-control"
+const invalidFormControl =` ${formControl} form-control_invalid`
+  let inputNameClassName
   if (isNameInputInvalid) {
-    inputNameClassName = "form-control " + "form-control_invalid";
+    inputNameClassName = invalidFormControl
   } else {
-    inputNameClassName = "form-control ";
+    inputNameClassName = formControl
   }
 
   let inputEmailClassName;
   if (isEmailInputInvalid) {
-    inputEmailClassName = "form-control " + "form-control_invalid";
+    inputEmailClassName = invalidFormControl
   } else {
-    inputEmailClassName = "form-control ";
+    inputEmailClassName = formControl
   }
   let inputAddressClassName;
   if (isAddressInputInvalid) {
-    inputAddressClassName = "form-control " + "form-control_invalid";
+    inputAddressClassName =invalidFormControl
   } else {
-    inputAddressClassName = "form-control ";
+    inputAddressClassName = formControl
   }
   let inputNumberClassName;
   if (isNumberInputInvalid) {
-    inputNumberClassName = "form-control " + "form-control_invalid";
+    inputNumberClassName = invalidFormControl
   } else {
-    inputNumberClassName = "form-control ";
+    inputNumberClassName = formControl
   }
   return (
     <div className="row cart-section">

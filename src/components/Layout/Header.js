@@ -15,7 +15,7 @@ function Header(props) {
         </div>
       </div>
       <div className="row header-image">
-        <img src={HeaderMeals} />
+        <img alt="header" src={HeaderMeals} />
       </div>
     </Fragment>
   );
